@@ -106,7 +106,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/cms">
       <div className="App">
         <Header
           currentUser={currentUser}
